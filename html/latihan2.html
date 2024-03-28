@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            border: 1px solid black;
+            border-collapse: collapse;
+            width: 200px;
+        }
+
+        .x {
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        td {
+            text-align: center;
+        }
+
+        td:hover {
+            background-color: aqua;
+        }
+
+        div {
+            border: 6px solid greenyellow;
+            background-color: rgb(187, 181, 181);
+            position: fixed;
+            padding: 8px;
+        }
+
+        div h2 {
+            text-align: center;
+            color: orangered;
+        }
+
+        div p {
+            text-align: justify;
+            text-indent: 50px;
+        }
+    </style>
+
+    <script>
+        function mau() {
+            document.getElementById("anj").innerHTML = "Anjay dapat babu baru";
+            alert ("Klik Ok untuk Lihat Jawaban");
+        }
+
+        function ngga() {
+            document.getElementById("anj").innerHTML = "Konttt";
+            alert ("Klik Ok untuk Lihat Jawaban");
+        }
+    </script>
+</head>
+<body>
+    <table border="1px">
+        <tr>
+            <th colspan="4">1</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td class="x" rowspan="2" colspan="2"><img src="https://i.pinimg.com/originals/3c/7a/fc/3c7afc1b68c0f8cc367dd9d0f1f383de.jpg" width="60px" height="30px"></td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+    </table><hr>
+
+    <p>Contoh List</p>
+    <ol>
+        <li>Mobil</li>
+        <ol type="I">
+            <li>Avanza</li>
+            <li>Xenia</li>
+        </ol>
+        <li>Motor</li>
+        <ol type="a">
+            <li>Vario</li>
+            <li>Beat</li>
+        </ol>
+    </ol><hr>
+
+    <h2>Contoh Javascript</h2>
+    <p id="anj">Kamu mau ngga jadi babu aku?</p>
+    <button onclick="mau()">Mau</button>
+    <button onclick="ngga()">Ngga</button>
+    <hr>
+    <div>
+        <h2>Praktikum Web 1</h2>
+        <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut 
+            aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
+            euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut 
+            aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
+            euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+    </div>
+</body>
+</html>

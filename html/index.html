@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function myFunction(v, k) {
+            return v * k;
+        }
+
+        function tampil() {
+            let v = document.getElementById("a").innerHTML;
+            let k = document.getElementById("b").innerHTML;
+            let hasil = myFunction(v, k);
+            alert (v + " x " + k + " = " + hasil);
+        }
+    </script>
+</head>
+<body>
+    <table border="2" width="100px">
+        <tr>
+            <th>a</th>
+            <th>b</th>
+        </tr>
+        <tr>
+            <td id="a">65</td>
+            <td id="b">33</td>
+        </tr>
+    </table><br>
+    <button type="button" onclick="tampil()">hitung</button>
+</body>
+</html>
