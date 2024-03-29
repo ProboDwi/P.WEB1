@@ -14,7 +14,7 @@ Tugas 2 ini berisi tentang
 - Berisi tentang Bagaimana cara membuat sebuah function pada JavaScript dengan mengambil nilai variabel untuk menghitung/Arithmatic
 - Berisi tentang cara mengoutputkan kembali hasil dari variabel melalui Javascript alert
 
-## Contoh Penggunaan Function pada JS
+## Contoh Membuat Function pada JS
 
 - Function untuk mengembalikan nilai
 ```sh
