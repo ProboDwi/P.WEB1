@@ -44,3 +44,6 @@ document.write("a + b - c = " + hitung);
 ```
 - Ini adalah contoh penggunaan Function JavaScript di dalam HTML
 ![alt text](https://github.com/ProboDwi/P.WEB1/blob/main/Cuplikan%20layar%202024-03-29%20165034.png?raw=true)
+
+- Contoh Output pada tampilan browser
+![alt text](?raw=true)
