@@ -42,3 +42,5 @@ document.write("Nilai b = " + b + "<br>");
 document.write("Nilai c = " + c + "<br>");
 document.write("a + b - c = " + hitung);
 ```
+- Ini adalah contoh penggunaan Function di dalam HTML
+![alt text](?raw=true)
